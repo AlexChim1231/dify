@@ -294,7 +294,7 @@ class ConversationService:
                 "id": current_variable.id,
                 "name": current_variable.name,
                 "description": current_variable.description,
-                "value_type": current_variable.value_type,
+                "value_type": expected_type,
                 "value": new_value,
                 "selector": current_variable.selector,
             }
