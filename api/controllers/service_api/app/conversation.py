@@ -1,4 +1,3 @@
-import json
 
 from flask_restful import Resource, marshal_with, reqparse
 from flask_restful.inputs import int_range
